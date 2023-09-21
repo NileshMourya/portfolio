@@ -1,0 +1,911 @@
+.about-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  animation: slideRight 1s forwards;
+  animation-delay: 1s;
+}
+.about-img img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.about-text {
+  font-family: "Roboto Mono";
+  margin-top: 7rem;
+}
+
+.about-text p {
+  margin-bottom: 0;
+}
+
+.services-list {
+  background-color: transparent;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 13px;
+  border-right: 10px;
+  border-radius: 20px;
+  animation: slideTop 1s ease-out forwards;
+  opacity: 0;
+  animation-delay: 1.7s;
+  transition: background 0.5s transform 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.servicesList--white {
+  box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+}
+
+.services-list i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.services-list:hover {
+  transform: translateY(-10px);
+}
+.services-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.services-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.services-list p {
+  font-size: 18px;
+}
+.read {
+  display: inline-block;
+  padding: 12px 28px;
+  background: white;
+  border-radius: 16px;
+  font-size: 16px;
+  -webkit-text-fill-color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.read:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.readHover {
+  box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+}
+.services-list div:hover {
+  transform: translateY(-10px);
+}
+.sub-title {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+.sub-title span {
+  -webkit-text-fill-color: #0ef;
+}
+.services-list i {
+  -webkit-text-fill-color: #0ef;
+}
+
+.about-text h2 {
+  -webkit-text-fill-color: #988e9f;
+}
+.class label {
+  -webkit-text-fill-color: #5918df;
+  font-size: 18px;
+}
+.class .yello {
+  -webkit-text-fill-color: #ffee03;
+}
+.comment {
+  -webkit-text-fill-color: #988e9f;
+  font-size: 18px;
+}
+.constructor label {
+  -webkit-text-fill-color: #5918df;
+  font-size: 18px;
+}
+.this {
+  -webkit-text-fill-color: #e3244c;
+  font-size: 18px;
+}
+.val {
+  -webkit-text-fill-color: #24e394;
+  font-size: 18px;
+}
+.equal {
+  -webkit-text-fill-color: #e3244c;
+  font-size: 18px;
+}
+.value {
+  -webkit-text-fill-color: #24e33a;
+  font-size: 18px;
+}
+.num {
+  -webkit-text-fill-color: #e39d24;
+  font-size: 18px;
+}
+.work {
+  -webkit-text-fill-color: #ffee03;
+}
+.return {
+  -webkit-text-fill-color: #5918df;
+  font-size: 18px;
+}
+.devop {
+  -webkit-text-fill-color: #24e33a;
+  font-size: 18px;
+}
+.comment {
+  -webkit-text-fill-color: #988e9f;
+  font-size: 18px;
+}
+.education {
+  -webkit-text-fill-color: #ffee03;
+  animation: slideLeft 1s ease forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+@media screen and (min-width: 278px) and (max-width: 300px) {
+  .about-img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-img img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 13px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+  }
+  .services-list i {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 315px) {
+  .about-img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-img img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 13px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+  }
+  .services-list i {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 315px) and (max-width: 340px) {
+  .about-img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-img img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 341px) and (max-width: 370px) {
+  .about-img {
+    width: 160px;
+    height: 160px;
+  }
+  .about-img img {
+    width: 160px;
+    height: 160px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 400px) {
+  .about-img {
+    width: 160px;
+    height: 160px;
+  }
+  .about-img img {
+    width: 160px;
+    height: 160px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 450px) {
+  .about-img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-img img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+  .about-img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-img img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 550px) {
+  .about-img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-img img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 576px) {
+  .about-img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-img img {
+    width: 170px;
+    height: 170px;
+  }
+  .about-text {
+    margin-top: 2rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 600px) {
+  .about-img {
+    width: 190px;
+    height: 190px;
+  }
+  .about-img img {
+    width: 190px;
+    height: 190px;
+  }
+  .about {
+    margin-top: 7rem;
+  }
+  .about-text {
+    margin-top: 2rem;
+    margin-left: -7rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+  .service--cart {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .services-list {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 750px) {
+  .about-img {
+    width: 190px;
+    height: 190px;
+  }
+  .about-img img {
+    width: 190px;
+    height: 190px;
+  }
+  .about {
+    margin-top: 7rem;
+  }
+  .about-text {
+    margin-top: 2rem;
+    margin-left: -7rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+  .service--cart {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .services-list {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  .about-img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    margin-top: 7rem;
+  }
+  .about-text {
+    margin-top: 3rem;
+    margin-left: -8rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 769px) {
+  .service--cart {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .services-list {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 991px) {
+  .about-img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    margin-top: 7rem;
+  }
+  .about-text {
+    margin-top: 3rem;
+    margin-left: -8rem;
+  }
+  .class,
+  .constructor,
+  .comment,
+  .val,
+  .value,
+  .num,
+  .equal,
+  .education,
+  .devop,
+  .return,
+  .work,
+  .this,
+  .yello {
+    font-size: 15px;
+  }
+  .about-text h2 {
+    text-align: center;
+  }
+  .services-list p {
+    font-size: 15px;
+  }
+  .services-list .read {
+    font-size: 10px;
+  }
+  .services-list h2 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .services-list i {
+    font-size: 18px;
+  }
+  .sub-title,
+  span {
+    font-size: 25px;
+  }
+  .mark-l {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1100px) {
+  .about-img {
+    width: 250px;
+    height: 250px;
+  }
+  .about-img img {
+    width: 250px;
+    height: 250px;
+  }
+  .about {
+    margin-top: 7rem;
+  }
+  .about-text {
+    margin-left: -5rem;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .about-img {
+    width: 270px;
+    height: 270px;
+  }
+  .about-img img {
+    width: 270px;
+    height: 270px;
+  }
+  .about {
+    margin-top: 7rem;
+  }
+}

@@ -1,0 +1,172 @@
+/* radel bar */
+.radial-bars {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* height: 170px; */
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.radial-bars .radial-bar {
+  width: 50%;
+  height: 170px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.radial-bars .radial-bar svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 120px;
+  height: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar {
+  stroke-width: 10;
+  stroke: black;
+  fill: transparent;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  stroke-linecap: round;
+  animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+  100% {
+    stroke-dashoffset: -1;
+  }
+}
+.path {
+  stroke-width: 10;
+  stroke: #0ef;
+  fill: transparent;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  stroke-linecap: round;
+}
+.path-1 {
+  animation: animate-path1 1s 1s linear forwards;
+}
+.path-2 {
+  animation: animate-path2 1s 1s linear forwards;
+}
+.path-3 {
+  animation: animate-path3 1s 1s linear forwards;
+}
+.path-4 {
+  animation: animate-path4 1s 1s linear forwards;
+}
+
+@keyframes animate-path1 {
+  100% {
+    stroke-dashoffset: 50;
+  }
+}
+@keyframes animate-path2 {
+  100% {
+    stroke-dashoffset: 175;
+  }
+}
+@keyframes animate-path3 {
+  100% {
+    stroke-dashoffset: 125;
+  }
+}
+@keyframes animate-path4 {
+  100% {
+    stroke-dashoffset: 75;
+  }
+}
+
+.radial-bar .percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
+}
+.radial-bar .text {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50px);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
+}
+
+.main-text {
+  padding-top: 130px;
+  margin-top: 30rem;
+}
+.main-text h2 {
+  font-size: 60px;
+  /* line-height: 1; */
+  text-align: center;
+}
+.main-text h2 span {
+  color: #0ef;
+  text-align: center;
+}
+.heading1 {
+  text-align: center;
+  /* text-decoration: underline; */
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  margin-bottom: 50px;
+  -webkit-text-fill-color: cyan;
+}
+@media screen and (min-width: 315px) and (max-width: 340px) {
+  .radial-bar .text {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 340px) and (max-width: 370px) {
+  .radial-bar .text {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 400px) {
+  .radial-bar .text {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 450px) {
+  .radial-bar .text {
+    font-size: 15px;
+    /* text-align: center; */
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 600px) {
+  .radial-bars {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 750px) {
+  .radial-bars {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  .radial-bars {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 991px) {
+  .radial-bars {
+    width: 450px;
+    margin-left: 4rem;
+  }
+}
