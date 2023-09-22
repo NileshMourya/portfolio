@@ -9,6 +9,10 @@ body {
 
   font-family: "Assistant", sans-serif;
 }
+
+.container_color {
+  background-color: #d9d9d9;
+}
 .home {
   margin-top: 7rem;
 }
@@ -294,6 +298,9 @@ body {
   .navbar-toggler-icon {
     font-size: 15px;
   }
+  .developer {
+    font-size: small;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 315px) {
@@ -335,6 +342,9 @@ body {
   .navbar-toggler-icon {
     font-size: 15px;
   }
+  .developer {
+    font-size: small;
+  }
 }
 @media screen and (min-width: 315px) and (max-width: 340px) {
   .home-content h3,
@@ -375,8 +385,11 @@ body {
   .navbar-toggler-icon {
     font-size: 15px;
   }
+  .developer {
+    font-size: small;
+  }
 }
-@media screen and (min-width: 341px) and (max-width: 370px) {
+@media screen and (min-width: 340px) and (max-width: 370px) {
   .home-content h3,
   .text {
     font-size: 15px;
@@ -415,6 +428,9 @@ body {
   }
   .navbar-toggler-icon {
     font-size: 15px;
+  }
+  .developer {
+    font-size: small;
   }
 }
 

@@ -52,7 +52,8 @@ const containerRemove = function () {
 };
 const lightMode = function () {
   mode.addEventListener("click", function (e) {
-    e.preventDefault();
+    // e.preventDefault();
+    navbar.classList.add("bg-body-tertiary");
     navbar.classList.remove("active");
     currentMode.classList.remove("bi-moon-stars-fill");
     currentMode.classList.add("bi-sun");
@@ -89,6 +90,7 @@ const containerAdder = function () {
 
 const darkMode = function () {
   dark.addEventListener("click", function () {
+    navbar.classList.remove("bg-body-tertiary");
     navbar.classList.add("active");
     logo.classList.add("logo");
     currentMode.classList.remove("bi-sun");

@@ -4,9 +4,9 @@
   font-size: 45px;
   line-height: 1;
   text-align: center;
-  opacity: 0;
+  /* opacity: 0;
   animation: slideRight 1s ease forwards;
-  animation-delay: 1s;
+  animation-delay: 1s; */
 }
 .contact-text h2 span {
   -webkit-text-fill-color: #0ef;
@@ -18,18 +18,18 @@
   font-size: 23px;
   font-weight: normal;
   text-align: center;
-  opacity: 0;
+  /* opacity: 0;
   animation: slideRight 1s ease forwards;
-  animation-delay: 2s;
+  animation-delay: 2s; */
 }
 .contact-text p {
   color: black;
   font: 18px;
   line-height: 30px;
   margin-bottom: 2rem;
-  opacity: 0;
+  /* opacity: 0;
   animation: slideRight 1s ease forwards;
-  animation-delay: 2s;
+  animation-delay: 2s; */
 }
 .contact-list {
   margin-bottom: 3rem;
@@ -37,9 +37,9 @@
 .contact-list li {
   margin-bottom: 10px;
   display: block;
-  opacity: 0;
+  /* opacity: 0;
   animation: slideRight 1s ease forwards;
-  animation-delay: 2s;
+  animation-delay: 2s; */
 }
 .contact--form {
   padding: 3rem;
@@ -179,10 +179,11 @@
   }
 }
 
-@media screen and (min-width: 315px) and(max-width:340px) {
+@media screen and (min-width: 315px) and (max-width: 340px) {
   .contact-icons i {
     width: 30px;
     height: 30px;
+    font-size: small;
   }
   .contact-text h2 {
     font-size: 25px;
@@ -197,8 +198,9 @@
   }
   .contact-text p {
     font-size: 13px;
-    width: 230px;
+    width: 240px;
     line-height: 20px;
+    margin-left: -1rem;
   }
   .contact-list i {
     font-size: 15px;

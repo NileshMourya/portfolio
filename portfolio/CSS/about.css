@@ -3,8 +3,8 @@
   height: 300px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-  animation: slideRight 1s forwards;
-  animation-delay: 1s;
+  /* animation: slideRight 1s forwards;
+  animation-delay: 1s; */
 }
 .about-img img {
   height: 300px;
@@ -36,9 +36,9 @@
   font-weight: 13px;
   border-right: 10px;
   border-radius: 20px;
-  animation: slideTop 1s ease-out forwards;
+  /* animation: slideTop 1s ease-out forwards;
   opacity: 0;
-  animation-delay: 1.7s;
+  animation-delay: 1.7s; */
   transition: background 0.5s transform 0.5s;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
@@ -160,9 +160,6 @@
 }
 .education {
   -webkit-text-fill-color: #ffee03;
-  animation: slideLeft 1s ease forwards;
-  opacity: 0;
-  animation-delay: 1s;
 }
 
 @media screen and (min-width: 278px) and (max-width: 300px) {
